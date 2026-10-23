@@ -1,0 +1,148 @@
+diff --git a/submodules/FoundationStereo/core/extractor.py b/submodules/FoundationStereo/core/extractor.py
+index 9abd21a..ef3c8dd 100644
+--- a/submodules/FoundationStereo/core/extractor.py
++++ b/submodules/FoundationStereo/core/extractor.py
+@@ -328,7 +328,7 @@ class Feature(nn.Module):
+         model = timm.create_model(
+             'edgenext_small', 
+             pretrained=True, 
+-            pretrained_cfg_overlay=dict(file="/data/deli/checkpoint/edgenext_small/pytorch_model.bin"),
++            pretrained_cfg_overlay=dict(file=os.path.join(os.path.dirname(__file__), "../../../../checkpoints/edgenext_small/pytorch_model.bin")),
+             features_only=False
+         )
+         self.stem = model.stem
+diff --git a/submodules/FoundationStereo/create_model.py b/submodules/FoundationStereo/create_model.py
+index 573d9c9..3c3ce54 100644
+--- a/submodules/FoundationStereo/create_model.py
++++ b/submodules/FoundationStereo/create_model.py
+@@ -10,7 +10,7 @@
+ import os, sys
+ from loguru import logger
+ import torch
+-sys.path.append(f'/home/deli/project/StereoGS/submodules/FoundationStereo')
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from omegaconf import OmegaConf
+ from core.foundation_stereo import FoundationStereo
+ from core.utils.utils import InputPadder
+@@ -20,7 +20,7 @@ torch.cuda.empty_cache()  # 清空显存缓存
+ device = 'cuda' if torch.cuda.is_available() else 'cpu'
+ logger.info(f"Device: {device}")
+ 
+-ckpt_dir = "/data/deli/checkpoint/FoundationStereo/vit_small/model_best_bp2.pth"
++ckpt_dir = os.path.join(os.path.dirname(__file__), "../../../checkpoints/FoundationStereo/vit_small/model_best_bp2.pth")
+ 
+ cfg = OmegaConf.load(f'{os.path.dirname(ckpt_dir)}/cfg.yaml')
+ if 'vit_size' not in cfg:
+diff --git a/submodules/FoundationStereo/depth_anything/dpt.py b/submodules/FoundationStereo/depth_anything/dpt.py
+index 0afea15..93e36bc 100644
+--- a/submodules/FoundationStereo/depth_anything/dpt.py
++++ b/submodules/FoundationStereo/depth_anything/dpt.py
+@@ -157,7 +157,7 @@ class DPT_DINOv2(nn.Module):
+         print(f"encoder: {encoder}")
+         print(f"pretrained_dino: {pretrained_dino}")
+         # self.pretrained = torch.hub.load('facebookresearch/dinov2', 'dinov2_{:}14'.format(encoder), pretrained=pretrained_dino)
+-        local_repo_path = "/home/deli/project/StereoGS/submodules/FoundationStereo/dinov2"
++        local_repo_path = os.path.join(os.path.dirname(__file__), "../dinov2")
+         self.pretrained = torch.hub.load(
+             local_repo_path, 
+             'dinov2_{:}14'.format(encoder), 
+diff --git a/submodules/mvs_modules/mvs_estimator.py b/submodules/mvs_modules/mvs_estimator.py
+index dfc0ee4..dddbd04 100644
+--- a/submodules/mvs_modules/mvs_estimator.py
++++ b/submodules/mvs_modules/mvs_estimator.py
+@@ -23,12 +23,13 @@ from .fusion import (
+ ) 
+ 
+ _DEPTH_COLORMAP = plt.get_cmap('plasma', 256)  # for plotting
+-CONFIG_PATH = "/home/deli/project/StereoGS/submodules/mvs_modules/configs/config_mvsformer.json"
++CONFIG_PATH = os.path.join(os.path.dirname(__file__), "configs/config_mvsformer.json")
+ 
+ 
+ class MVSEstimator:
+     def __init__(self, config_path=CONFIG_PATH, scale_bds=[1.0, 1.0]):
+         self.config = read_json(config_path)
++        self.config["model_path"] = os.path.join(os.path.dirname(__file__), "../../../checkpoints/MVSFormer/best.pth")
+         self.scale_bds = scale_bds
+         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+         self.model = self.create_model(self.config)
+diff --git a/submodules/mvsanywhere/create_model.py b/submodules/mvsanywhere/create_model.py
+index ca9b80d..b50dacb 100644
+--- a/submodules/mvsanywhere/create_model.py
++++ b/submodules/mvsanywhere/create_model.py
+@@ -1,7 +1,7 @@
+ # Simple demo showing how to use the model using torch.hub
+ import os
+ import sys
+-sys.path.append("/home/deli/project/StereoGS/submodules/mvsanywhere/src")
++sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
+ import numpy as np
+ from PIL import Image
+ import torch
+@@ -19,7 +19,7 @@ from .fusion import (
+ )
+ _DEPTH_COLORMAP = plt.get_cmap('plasma', 256)  # for plotting
+ 
+-repo_path = "/home/deli/project/StereoGS/submodules/mvsanywhere" 
++repo_path = os.path.dirname(os.path.abspath(__file__)) 
+ 
+ # 加载模型结构
+ mvs_model = torch.hub.load(
+diff --git a/submodules/mvsanywhere/hubconf.py b/submodules/mvsanywhere/hubconf.py
+index 32fae12..90ad01e 100644
+--- a/submodules/mvsanywhere/hubconf.py
++++ b/submodules/mvsanywhere/hubconf.py
+@@ -50,7 +50,7 @@ class MVSAnywhereInference(nn.Module):
+             )
+             opts.load_weights_from_checkpoint = ckpt_name 
+         else:
+-            ckpt_path = "/data/deli/checkpoint/MVSAnywhere/mvsanywhere_dot.ckpt"
++            ckpt_path = str(Path(__file__).resolve().parents[3] / "checkpoints" / "mvsanywhere_dot.ckpt")
+             opts.load_weights_from_checkpoint = ckpt_path
+ 
+         model_class_to_use = get_model_class(opts)
+diff --git a/submodules/mvsanywhere/src/mvsanywhere/modules/vit_modules.py b/submodules/mvsanywhere/src/mvsanywhere/modules/vit_modules.py
+index f97995a..a8a53cf 100644
+--- a/submodules/mvsanywhere/src/mvsanywhere/modules/vit_modules.py
++++ b/submodules/mvsanywhere/src/mvsanywhere/modules/vit_modules.py
+@@ -1,3 +1,4 @@
++from pathlib import Path
+ from loguru import logger
+ import torch
+ import torch.nn as nn
+@@ -100,7 +101,7 @@ class DINOv2(nn.Module):
+         super().__init__()
+ 
+         assert model_name in DINOV2_ARCHS.keys(), f'Unknown model name {model_name}'
+-        self.model = torch.hub.load('facebookresearch/dinov2', model_name)
++        self.model = torch.hub.load(str(Path(__file__).resolve().parents[4] / "FoundationStereo/dinov2"), model_name, source="local", pretrained=False)
+         use_memeffattn_in_model(self.model)
+         self.num_channels = DINOV2_ARCHS[model_name]
+         self.num_intermediate_layers = len(self.model.blocks) if num_intermediate_layers == -1 else num_intermediate_layers
+@@ -228,7 +229,7 @@ class ViTCVEncoder(nn.Module):
+         self.num_ch_cv = num_ch_cv
+ 
+         # Load DINOv2 model
+-        self.model = torch.hub.load('facebookresearch/dinov2', model_name)
++        self.model = torch.hub.load(str(Path(__file__).resolve().parents[4] / "FoundationStereo/dinov2"), model_name, source="local", pretrained=False)
+         use_memeffattn_in_model(self.model)
+ 
+         self.feat_fuser_layers_idx = feat_fuser_layers_idx
+diff --git a/utils/mono_depth_utils.py b/utils/mono_depth_utils.py
+index f068493..bf363f5 100644
+--- a/utils/mono_depth_utils.py
++++ b/utils/mono_depth_utils.py
+@@ -1,11 +1,12 @@
++from pathlib import Path
+ import torch
+ from loguru import logger
+ 
+ # ==========================================
+ # 1. 配置你的本地绝对路径 (请根据实际情况修改)
+ # ==========================================
+-LOCAL_REPO_PATH = "/home/deli/project/StereoGS/submodules/MiDaS"  
+-LOCAL_WEIGHTS_PATH = "/data/deli/checkpoint/MiDaS/dpt_hybrid_384.pt" 
++LOCAL_REPO_PATH = str(Path(__file__).resolve().parents[1] / "submodules/MiDaS")  
++LOCAL_WEIGHTS_PATH = str(Path(__file__).resolve().parents[2] / "checkpoints/MiDaS/dpt_hybrid_384.pt") 
+ 
+ # ==========================================
+ # 2. 纯离线加载模型结构与权重

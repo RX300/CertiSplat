@@ -1,0 +1,1203 @@
+{
+  "runs_checked": 69,
+  "png_samples": 46,
+  "max_PSNR_difference": 3.337860107421875e-06,
+  "settings": [
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "fern",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 3,
+      "checkpoint_points": 126315,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "IMG_4026",
+          "PSNR": 25.9588885307312,
+          "saved_PSNR": 25.95888900756836,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "IMG_4042",
+          "PSNR": 21.391377449035645,
+          "saved_PSNR": 21.391376495361328,
+          "absolute_difference": 9.5367431640625e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "flower",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 5,
+      "checkpoint_points": 122453,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "IMG_2962",
+          "PSNR": 26.43310308456421,
+          "saved_PSNR": 26.433103561401367,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "IMG_2994",
+          "PSNR": 24.565088748931885,
+          "saved_PSNR": 24.565088272094727,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "fortress",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 6,
+      "checkpoint_points": 90480,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "IMG_1800",
+          "PSNR": 28.095171451568604,
+          "saved_PSNR": 28.095172882080078,
+          "absolute_difference": 1.430511474609375e-06
+        },
+        {
+          "view": "IMG_1840",
+          "PSNR": 26.722006797790527,
+          "saved_PSNR": 26.722003936767578,
+          "absolute_difference": 2.86102294921875e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "horns",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 8,
+      "checkpoint_points": 108243,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "DJI_20200223_163016_842",
+          "PSNR": 26.05898141860962,
+          "saved_PSNR": 26.05898094177246,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "DJI_20200223_163208_938",
+          "PSNR": 14.889614582061768,
+          "saved_PSNR": 14.889617919921875,
+          "absolute_difference": 3.337860107421875e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "leaves",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 4,
+      "checkpoint_points": 251245,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "IMG_2997",
+          "PSNR": 20.64448356628418,
+          "saved_PSNR": 20.64448356628418,
+          "absolute_difference": 0.0
+        },
+        {
+          "view": "IMG_3022",
+          "PSNR": 20.322847366333008,
+          "saved_PSNR": 20.322847366333008,
+          "absolute_difference": 0.0
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "orchids",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 4,
+      "checkpoint_points": 160706,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "IMG_4467",
+          "PSNR": 18.27431321144104,
+          "saved_PSNR": 18.27431297302246,
+          "absolute_difference": 2.384185791015625e-07
+        },
+        {
+          "view": "IMG_4491",
+          "PSNR": 18.57742667198181,
+          "saved_PSNR": 18.57742691040039,
+          "absolute_difference": 2.384185791015625e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "room",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 6,
+      "checkpoint_points": 45672,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "DJI_20200226_143850_006",
+          "PSNR": 26.02689266204834,
+          "saved_PSNR": 26.026893615722656,
+          "absolute_difference": 9.5367431640625e-07
+        },
+        {
+          "view": "DJI_20200226_143948_113",
+          "PSNR": 25.55974006652832,
+          "saved_PSNR": 25.559741973876953,
+          "absolute_difference": 1.9073486328125e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scene": "trex",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 7,
+      "checkpoint_points": 86905,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "DJI_20200223_163548_810",
+          "PSNR": 27.745893001556396,
+          "saved_PSNR": 27.745895385742188,
+          "absolute_difference": 2.384185791015625e-06
+        },
+        {
+          "view": "DJI_20200223_163646_755",
+          "PSNR": 26.645731925964355,
+          "saved_PSNR": 26.645732879638672,
+          "absolute_difference": 9.5367431640625e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "fern",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 3,
+      "checkpoint_points": 167788,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "flower",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 5,
+      "checkpoint_points": 172903,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "fortress",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 6,
+      "checkpoint_points": 120304,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "horns",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 8,
+      "checkpoint_points": 141369,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "leaves",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 4,
+      "checkpoint_points": 368557,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "orchids",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 4,
+      "checkpoint_points": 252629,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "room",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 6,
+      "checkpoint_points": 58686,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scene": "trex",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 7,
+      "checkpoint_points": 119932,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "fern",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 3,
+      "checkpoint_points": 203893,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "flower",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 5,
+      "checkpoint_points": 209714,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "fortress",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 6,
+      "checkpoint_points": 143074,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "horns",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 8,
+      "checkpoint_points": 149297,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "leaves",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 4,
+      "checkpoint_points": 427444,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "orchids",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 4,
+      "checkpoint_points": 318676,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "room",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 6,
+      "checkpoint_points": 61909,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scene": "trex",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 7,
+      "checkpoint_points": 124110,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan8",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 34055,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 17.22626566886902,
+          "saved_PSNR": 17.22626495361328,
+          "absolute_difference": 7.152557373046875e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 21.94484233856201,
+          "saved_PSNR": 21.94484519958496,
+          "absolute_difference": 2.86102294921875e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan21",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 95777,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 15.630851984024048,
+          "saved_PSNR": 15.630851745605469,
+          "absolute_difference": 2.384185791015625e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 16.85997486114502,
+          "saved_PSNR": 16.859975814819336,
+          "absolute_difference": 9.5367431640625e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan30",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 22782,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 20.479109287261963,
+          "saved_PSNR": 20.479108810424805,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 26.05682373046875,
+          "saved_PSNR": 26.056821823120117,
+          "absolute_difference": 1.9073486328125e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan31",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 55850,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 14.644218683242798,
+          "saved_PSNR": 14.644218444824219,
+          "absolute_difference": 2.384185791015625e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 18.729422092437744,
+          "saved_PSNR": 18.729421615600586,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan34",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 57510,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 19.33654546737671,
+          "saved_PSNR": 19.336545944213867,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 22.453701496124268,
+          "saved_PSNR": 22.453704833984375,
+          "absolute_difference": 3.337860107421875e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan38",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 71741,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 17.59953737258911,
+          "saved_PSNR": 17.599536895751953,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 19.933230876922607,
+          "saved_PSNR": 19.933229446411133,
+          "absolute_difference": 1.430511474609375e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan40",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 47736,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 18.073452711105347,
+          "saved_PSNR": 18.07345199584961,
+          "absolute_difference": 7.152557373046875e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 21.72445058822632,
+          "saved_PSNR": 21.724451065063477,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan41",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 42173,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 14.51168179512024,
+          "saved_PSNR": 14.51168155670166,
+          "absolute_difference": 2.384185791015625e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 21.727049350738525,
+          "saved_PSNR": 21.727048873901367,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan45",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 60058,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 15.692976713180542,
+          "saved_PSNR": 15.692976951599121,
+          "absolute_difference": 2.384185791015625e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 19.620516300201416,
+          "saved_PSNR": 19.620515823364258,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan55",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 47958,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 16.462489366531372,
+          "saved_PSNR": 16.46249008178711,
+          "absolute_difference": 7.152557373046875e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 28.283181190490723,
+          "saved_PSNR": 28.283180236816406,
+          "absolute_difference": 9.5367431640625e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan63",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 25957,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 22.428042888641357,
+          "saved_PSNR": 22.42804527282715,
+          "absolute_difference": 2.384185791015625e-06
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 23.079066276550293,
+          "saved_PSNR": 23.079069137573242,
+          "absolute_difference": 2.86102294921875e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan82",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 26359,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 21.123783588409424,
+          "saved_PSNR": 21.123783111572266,
+          "absolute_difference": 4.76837158203125e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 22.538774013519287,
+          "saved_PSNR": 22.538774490356445,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan103",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 31641,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 21.309819221496582,
+          "saved_PSNR": 21.30982208251953,
+          "absolute_difference": 2.86102294921875e-06
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 28.13716173171997,
+          "saved_PSNR": 28.137161254882812,
+          "absolute_difference": 4.76837158203125e-07
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan110",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 24251,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 17.21924901008606,
+          "saved_PSNR": 17.219249725341797,
+          "absolute_difference": 7.152557373046875e-07
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 21.650428771972656,
+          "saved_PSNR": 21.650428771972656,
+          "absolute_difference": 0.0
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scene": "scan114",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 34198,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [
+        {
+          "view": "rect_002_3_r5000",
+          "PSNR": 18.023933172225952,
+          "saved_PSNR": 18.0239315032959,
+          "absolute_difference": 1.6689300537109375e-06
+        },
+        {
+          "view": "rect_048_3_r5000",
+          "PSNR": 25.74489116668701,
+          "saved_PSNR": 25.74489402770996,
+          "absolute_difference": 2.86102294921875e-06
+        }
+      ],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan8",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 42297,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan21",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 97963,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan30",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 24737,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan31",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 59415,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan34",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 61408,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan38",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 74489,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan40",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 54511,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan41",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 45412,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan45",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 61064,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan55",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 52093,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan63",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 27403,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan82",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 30163,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan103",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 33156,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan110",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 26281,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scene": "scan114",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 35773,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan8",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 45594,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan21",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 98373,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan30",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 25524,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan31",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 63563,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan34",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 69882,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan38",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 82847,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan40",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 59018,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan41",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 51181,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan45",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 64954,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan55",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 59116,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan63",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 28579,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan82",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 32140,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan103",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 35550,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan110",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 29232,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scene": "scan114",
+      "prior": "fused_np",
+      "seed": 0,
+      "iterations": 10000,
+      "test_views": 25,
+      "checkpoint_points": 38175,
+      "checkpoint_parameters_finite": true,
+      "png_samples": [],
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "runs_checked": 45,
+  "settings": [
+    {
+      "variant": "abl_novis",
+      "scene": "scan103",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan110",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan114",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan21",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan30",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan31",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan34",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan38",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan40",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan41",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan45",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan55",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan63",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan8",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_novis",
+      "scene": "scan82",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan103",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan110",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan114",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan21",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan30",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan31",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan34",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan38",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan40",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan41",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan45",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan55",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan63",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan8",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocarve",
+      "scene": "scan82",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan103",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan110",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan114",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan21",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan30",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan31",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan34",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan38",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan40",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan41",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan45",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan55",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan63",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan8",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    },
+    {
+      "variant": "abl_nocap",
+      "scene": "scan82",
+      "prior": "fused_np",
+      "views": 6,
+      "retained": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "source": "fused_np",
+  "aggregation": "scene/view-mean certified fractions; projected-pixel-pair-count-weighted scene medians and below-threshold fractions",
+  "settings": [
+    {
+      "dataset": "LLFF",
+      "views": 3,
+      "scenes": 8,
+      "files_checked": 96,
+      "certified_fraction": 0.2776102467736066,
+      "cross_view_relative_difference": 0.0013960099240541504,
+      "cross_view_below_one_percent": 0.9842678531602421
+    },
+    {
+      "dataset": "LLFF",
+      "views": 6,
+      "scenes": 8,
+      "files_checked": 192,
+      "certified_fraction": 0.37244690185745083,
+      "cross_view_relative_difference": 0.0020878857944737267,
+      "cross_view_below_one_percent": 0.9239359294469573
+    },
+    {
+      "dataset": "LLFF",
+      "views": 9,
+      "scenes": 8,
+      "files_checked": 288,
+      "certified_fraction": 0.3518531641051482,
+      "cross_view_relative_difference": 0.002666555209609217,
+      "cross_view_below_one_percent": 0.8817959673378839
+    },
+    {
+      "dataset": "DTU",
+      "views": 3,
+      "scenes": 15,
+      "files_checked": 180,
+      "certified_fraction": 0.21812800998138274,
+      "cross_view_relative_difference": 0.0004543525954782724,
+      "cross_view_below_one_percent": 0.9994964587745842
+    },
+    {
+      "dataset": "DTU",
+      "views": 6,
+      "scenes": 15,
+      "files_checked": 360,
+      "certified_fraction": 0.36033591920796637,
+      "cross_view_relative_difference": 0.0005777855469153056,
+      "cross_view_below_one_percent": 0.9494106062203103
+    },
+    {
+      "dataset": "DTU",
+      "views": 9,
+      "scenes": 15,
+      "files_checked": 540,
+      "certified_fraction": 0.4439793481794293,
+      "cross_view_relative_difference": 0.0006249432700123054,
+      "cross_view_below_one_percent": 0.9359835204265335
+    }
+  ]
+}

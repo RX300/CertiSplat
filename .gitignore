@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Manuscript sources are not part of the public release.
+/paper/
+
+# Third-party code, weights, data and outputs (see README for how to obtain them)
+/StereoGS/
+/TWINGS/
+/StableGS/
+/third_party/
+/checkpoints/
+/datasets
+/experiments/
+/benchmarks/
+/runtimes/
+/vendor/
